@@ -1,2 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!!!");
+﻿string Firstname;
+string Lastname;
+string Grade;
+string studentID;
+Console.WriteLine("What is your first name?");
+Firstname = Console.ReadLine();
+Console.WriteLine("What is your last name?");
+Lastname = Console.ReadLine();
+Console.WriteLine("What is your grade?");
+Grade = Console.ReadLine();
+Console.WriteLine("What is your student ID?");
+studentID = Console.ReadLine();
+Console.WriteLine("First name: " + Firstname);
+Console.WriteLine("Last name: " + Lastname);
+Console.WriteLine("Grade: " + Grade);
+Console.WriteLine("Student ID: " + studentID);
